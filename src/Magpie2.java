@@ -35,6 +35,18 @@ public class Magpie2
 		{
 			response = "Why so negative?";
 		}
+        else if (statement.indexOf("yes") >= 0)
+        {
+            response = "Okay";
+        }
+        else if (statement.indexOf("Okay") >= 0)
+        {
+            response = "I'm glad you agree";
+        }
+        else if (statement.indexOf("pineapples") >= 0)
+        {
+            response = "Those are quite fruity";
+        }
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
 				|| statement.indexOf("sister") >= 0
